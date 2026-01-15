@@ -15,7 +15,7 @@ summarization.
 
 ## Contents
 
-### `analyze_bootstrap_support.py`
+### `Bootstrap_analysis.py`
 Python script to summarize and analyse bootstrap support values from phylogenetic trees.
 
 **Functionality includes:**
@@ -28,7 +28,7 @@ across different datasets and analytical conditions.
 
 ---
 
-### `alignment_metrics.py`
+### `Alignment_metrics.py`
 Python script for the integrative visualization of alignment- and tree-based quality
 metrics.
 
@@ -46,7 +46,7 @@ manner.
 
 ---
 
-### `tree_space.R`
+### `Tree_space_metrics.R`
 R script for exploring and visualizing the *tree space* of Bayesian phylogenetic analyses.
 
 **Key features:**
@@ -61,8 +61,8 @@ posterior tree distributions.
 
 ---
 
-### `tanglegram_rooted.py`
-Python script to generate **rooted tanglegrams** (co-phylogenies) for the comparison of
+### `Tanglegram_rooted.R`
+R script to generate **rooted tanglegrams** (co-phylogenies) for the comparison of
 two phylogenetic trees.
 
 **Purpose:**
@@ -71,8 +71,8 @@ two phylogenetic trees.
 
 ---
 
-### `tanglegram_unrooted.py`
-Python script to generate **unrooted tanglegrams** for phylogenetic comparison.
+### `Tanglegram_unrooted.R`
+R script to generate **unrooted tanglegrams** for phylogenetic comparison.
 
 **Purpose:**
 - Comparison of overall tree topology without assumptions about root placement
@@ -83,8 +83,8 @@ comparisons between alternative phylogenetic hypotheses.
 
 ---
 
-### `PCR_count`
-Script to summarize PCR amplification success across specimens, loci, and collection years.
+### `PCR_count.py`
+Python script to summarize PCR amplification success across specimens, loci, and collection years.
 
 **Functionality includes:**
 - Counting successful DNA amplifications per locus
