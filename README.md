@@ -96,6 +96,25 @@ of specimen age or marker choice.
 
 ---
 
+## Supporting data
+
+### `Complete_dataset_phylogenetics.xlsx`
+Tabular file containing the complete list of taxa included in the phylogenetic analyses
+used in the associated study.
+
+**Description:**
+- Contains ~4000 taxa spanning all datasets included in the phylogenetic analyses
+- Includes the specimen codes, specimens names, country of origin, and GenBank Accession
+  numbers where available for individual samples
+- Serves as a transparent record of taxon sampling and dataset composition
+
+This file is provided here because its size exceeds what is practical to include in the
+main report or supplementary materials. It enables reproducibility, re-analysis, and 
+inspection of taxon sampling decisions without requiring access to the original analysis
+environment.
+
+---
+
 ## Requirements
 
 Scripts in this repository use a mixture of **R** and **Python**.
@@ -128,4 +147,5 @@ Developed as part of an academic research project in phylogenetics and fungal sy
 These scripts are research tools developed for a specific project and are provided
 “as is”. While they have been tested on the datasets used in the associated study,
 users are encouraged to inspect and adapt the code to their own data and research
-questions.
+questions. In addition to scripts, the repository includes a supporting data file 
+that documents taxon inputs necessary for reproducibility.
