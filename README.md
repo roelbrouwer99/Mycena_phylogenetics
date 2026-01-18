@@ -115,6 +115,19 @@ environment.
 
 ---
 
+### `Trees/`
+Directory containing the phylogenetic trees generated and used in the analyses
+presented in the associated study.
+
+**Description:**
+- Contains 14 phylogenetic trees inferred under different datasets and/or analytical conditions
+- Trees are provided in PDF format
+- Represents the exact tree topologies used as input for downstream analyses and visualizations
+
+This directory is provided to document the primary phylogenetic results underlying the
+analyses and to facilitate transparency, reproducibility, and re-use of the tree data
+without requiring regeneration of the original inference runs.
+
 ## Requirements
 
 Scripts in this repository use a mixture of **R** and **Python**.
